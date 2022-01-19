@@ -11,9 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-wrapper{
+  display: flex;
+  
+}
 .news-feed{
-  background-color: red;
+  background-color: rgb(200,250,230);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+  max-width: 300px;
 }
 .currency-converter{
-  background-color: aqua;
+  background-color: rgb(201,201,202);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+  text-align: center;
+
+}
+.exchange-rate{
+  background-color: rgb(222,233,212);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+}
+.input-box{
+  background-color: rgb(200,250,230);
+  padding: 30px;
+  border-radius: 10px;
+}
+button {
+  border:none;
+  float:right;
+  margin:2px;
+  
+}
+button:hover{
+  background-color: rgba(211, 74, 11, 0.959);
+}
+input, select{
+  border:none;
 }
